@@ -17,6 +17,7 @@ function drawChartBar () {
     var options = {
         height: 450,
         colors: ['#091337', '#3369e7'],
+        legend: { position: 'top', maxLines: 1 },
         annotations: {
             alwaysOutside: true
         }    
